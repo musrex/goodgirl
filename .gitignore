@@ -162,3 +162,7 @@ cython_debug/
 # Custom stuff 
 *.mid
 music.py
+*.ase
+*.aup
+*.mp3
+background_data/
