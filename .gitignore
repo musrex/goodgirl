@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 # Custom stuff 
-.mid
+*.mid
+music.py

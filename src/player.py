@@ -1,4 +1,5 @@
 import pyglet
+from pyglet import shapes
 
 class Player:
     def __init__(self, space, position):
@@ -12,8 +13,8 @@ class Player:
         pass
     
     def draw(self):
-        # draw the player
-        pass
+        square = shapes.Rectangle(self.position[0], self.position[1], 50, 50, color=(50, 225, 30))
+        square.draw()
 
     def update(self):
         # update player state
